@@ -38,9 +38,10 @@
   height: 2rem;
 }
 .i-icons {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   display: flex;
   gap: 0rem;
+  justify-content: center;
 }
 .i-icons > * {
   transform: scale(0.5);

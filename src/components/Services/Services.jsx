@@ -40,8 +40,8 @@ const Services = () => {
       <div className="cards">
         {/* first card */}
         <motion.div
-          initial={{ left: "25rem" }}
-          whileInView={{ left: "14rem" }}
+          initial={{ left: "20rem" }}
+          whileInView={{ left: "12rem" }}
           transition={transition}
         >
           <Card
@@ -52,8 +52,8 @@ const Services = () => {
         </motion.div>
         {/* second card */}
         <motion.div
-          initial={{ left: "-11rem", top: "12rem" }}
-          whileInView={{ left: "-4rem" }}
+          initial={{ left: "-4rem", top: "12rem" }}
+          whileInView={{ left: "-3rem" }}
           transition={transition}
         >
           <Card
@@ -64,7 +64,7 @@ const Services = () => {
         </motion.div>
         {/* 3rd */}
         <motion.div
-          initial={{ top: "19rem", left: "25rem" }}
+          initial={{ top: "19rem", left: "20rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
